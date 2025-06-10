@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.f4fcf441.css",
-    "main.js": "/PersonalPortfolio/static/js/main.2fb61c4f.js",
+    "main.css": "/PersonalPortfolio/static/css/main.bfd4f64f.css",
+    "main.js": "/PersonalPortfolio/static/js/main.d9c7fd42.js",
     "static/css/64.04b8fc6d.chunk.css": "/PersonalPortfolio/static/css/64.04b8fc6d.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/PersonalPortfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.0efc8132.chunk.css": "/PersonalPortfolio/static/css/769.0efc8132.chunk.css",
@@ -17,19 +17,17 @@
     "static/media/developerActivity.svg": "/PersonalPortfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/AndersGroup.webp": "/PersonalPortfolio/static/media/AndersGroup.c5af221f1e811b399f3c.webp",
     "static/media/skill.svg": "/PersonalPortfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
-    "static/media/saayaHealthLogo.webp": "/PersonalPortfolio/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
-    "static/media/nextuLogo.webp": "/PersonalPortfolio/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/PersonalPortfolio/index.html",
     "static/media/talksCardBack.svg": "/PersonalPortfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.f4fcf441.css.map": "/PersonalPortfolio/static/css/main.f4fcf441.css.map",
-    "main.2fb61c4f.js.map": "/PersonalPortfolio/static/js/main.2fb61c4f.js.map",
+    "main.bfd4f64f.css.map": "/PersonalPortfolio/static/css/main.bfd4f64f.css.map",
+    "main.d9c7fd42.js.map": "/PersonalPortfolio/static/js/main.d9c7fd42.js.map",
     "64.04b8fc6d.chunk.css.map": "/PersonalPortfolio/static/css/64.04b8fc6d.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/PersonalPortfolio/static/js/64.56dc6704.chunk.js.map",
     "769.0efc8132.chunk.css.map": "/PersonalPortfolio/static/css/769.0efc8132.chunk.css.map",
     "769.bda0d7b7.chunk.js.map": "/PersonalPortfolio/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4fcf441.css",
-    "static/js/main.2fb61c4f.js"
+    "static/css/main.bfd4f64f.css",
+    "static/js/main.d9c7fd42.js"
   ]
 }
