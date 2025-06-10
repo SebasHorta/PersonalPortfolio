@@ -45,31 +45,12 @@
   margin-top: 4rem;
 }
 
-.contact-image-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 0rem;  // controls position horizontally
-  margin-top: 2rem;    // controls position vertically
+.contact-image-div > img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 1.5rem;
+  margin-top: -4rem;
 }
-
-.contact-image {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center top;  // shows forehead more
-  border: 3px solid $buttonColor;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
-  max-width: none;
-}
-
-.contact-image:hover {
-  transform: scale(1.05); // optional hover effect
-}
-
-
 
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {

@@ -53,14 +53,21 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
+            {/* {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
-            ) : (
+            ) : ( */}
+              <a
+                  href="https://www.linkedin.com/in/sebastianhorta03/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
               <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                className="greeting-image"
+                alt="Sebas Horta"
+                src={require("../../assets/images/SebasHorta.jpeg")}
               ></img>
-            )}
+              </a>
+            {/* )} */}
           </div>
         </div>
       </div>

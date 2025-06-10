@@ -53,9 +53,28 @@
   line-height: 40px;
 }
 
-.greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
+.greeting-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0rem;  // controls position horizontally
+  margin-top: 2rem;    // controls position vertically
+}
+
+.greeting-image {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;  // shows forehead more
+  border: 3px solid $buttonColor;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  max-width: none;
+}
+
+.greeting-image:hover {
+  transform: scale(1.05); // optional hover effect
 }
 
 .wave-emoji {
