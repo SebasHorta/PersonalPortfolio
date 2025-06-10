@@ -155,26 +155,42 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Incoming Systems Application Engineer Intern",
-      company: "Schneider Electric",
-      companylogo: require("./assets/images/Schneider-Electric-logo.png"),
-      date: "Summer 2025",
-      desc: "Expected to assist in system-level development, hardware-software integration, and tools supporting energy automation platforms."
-    },
-    {
       role: "Independent Developer & Researcher",
       company: "Columbia University",
       companylogo: require("./assets/images/SEASLogo.svg.png"),
       date: "2024 – Present",
-      desc: "Projects highlighting my hands-on experience in machine learning and full-stack development:",
+      desc: "Hands-on research and development projects in machine learning and full-stack web applications.",
       descBullets: [
-        "Developed machine learning pipeline for personalized gait analysis using VR sensor data, achieving ~85% accuracy in gait event detection (Columbia University ROAR Lab).",
-        "Built an interactive Flask web app to teach photography exposure concepts with real-time sliders and visual feedback.",
-        "Created a full-stack sustainability app to reduce food waste by monitoring expiration dates and sending user notifications."
+        "Developed ML pipeline for personalized gait analysis using VR sensor data with ~85% accuracy.",
+        "Built an interactive Flask web app to teach photography exposure concepts.",
+        "Created a full-stack sustainability app to track food expiration and notify users."
+      ]
+    },
+    {
+      role: "Committee Board Member",
+      company: "Society of Hispanic Professional Engineers – Columbia University",
+      companylogo: require("./assets/images/SHPELogo.png.avif"), // Replace with your actual image path
+      date: "2023 – Present",
+      desc: "Support professional development and community outreach within SHPE's Columbia chapter.",
+      descBullets: [
+        "Organized technical workshops and networking events with industry professionals.",
+        "Promoted inclusive engagement and academic support among STEM students."
+      ]
+    },
+    {
+      role: "Resident Advisor – Engagement Coordinator",
+      company: "Columbia University Residential Life",
+      companylogo: require("./assets/images/SEASLogo.svg.png"),
+      date: "2024 – Present",
+      desc: "Guide and support residents while fostering a positive and inclusive living environment.",
+      descBullets: [
+        "Planned community-building programs to enhance engagement and connection.",
+        "Provided peer support and responded to residents’ needs and concerns."
       ]
     }
   ]
 };
+
 
 
 /* Your Open Source Section to View Your Github Pinned Projects
