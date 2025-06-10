@@ -139,8 +139,32 @@
   }
 }
 
-@media (max-width: 320px) {
-  .main {
-    width: auto;
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+  .greeting-main {
+    display: block;
+  }
+  .greeting-image-div {
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    height: auto;
+  }
+  .greeting-image {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
   }
 }
+
