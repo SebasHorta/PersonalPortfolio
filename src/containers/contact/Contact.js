@@ -53,14 +53,21 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} />
-            ) : (
+            {/* {illustration.animated ? ( */}
+               {/* <DisplayLottie animationData={email} /> */}
+            {/* // ") : (" */}
+              <a
+                href="https://www.linkedin.com/in/sebastianhorta03/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
               <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
+                className="contact-image"
+                alt="Sebas Horta"
+                src={require("../../assets/images/SebasHorta.jpeg")}
               ></img>
-            )}
+            {/* )} */}
+            </a>
           </div>
         </div>
       </div>
