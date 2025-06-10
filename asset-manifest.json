@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.f005ea8b.css",
-    "main.js": "/PersonalPortfolio/static/js/main.65e0f5f9.js",
+    "main.css": "/PersonalPortfolio/static/css/main.43922ec5.css",
+    "main.js": "/PersonalPortfolio/static/js/main.5dd64f55.js",
     "static/css/64.04b8fc6d.chunk.css": "/PersonalPortfolio/static/css/64.04b8fc6d.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/PersonalPortfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.0efc8132.chunk.css": "/PersonalPortfolio/static/css/769.0efc8132.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/PersonalPortfolio/static/js/769.bda0d7b7.chunk.js",
+    "static/media/SebasHorta.jpeg": "/PersonalPortfolio/static/media/SebasHorta.f7d04064087daeef39a9.jpeg",
     "static/media/Farmingdale_State_College_logo_1.jpg": "/PersonalPortfolio/static/media/Farmingdale_State_College_logo_1.623c587cb0754e5b173c.jpg",
     "static/media/Montserrat-Regular.ttf": "/PersonalPortfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/resume.pdf": "/PersonalPortfolio/static/media/resume.56e33f4b6cf66e89966b.pdf",
@@ -13,7 +14,6 @@
     "static/media/Schneider-Electric-logo.png": "/PersonalPortfolio/static/media/Schneider-Electric-logo.1cee0a508980db2c932d.png",
     "static/media/SEASLogo.svg.png": "/PersonalPortfolio/static/media/SEASLogo.svg.e82a4152382601b90797.png",
     "static/media/manOnTable.svg": "/PersonalPortfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
-    "static/media/contactMailDark.svg": "/PersonalPortfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/PersonalPortfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/AndersGroup.webp": "/PersonalPortfolio/static/media/AndersGroup.c5af221f1e811b399f3c.webp",
     "static/media/skill.svg": "/PersonalPortfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
@@ -21,15 +21,15 @@
     "static/media/nextuLogo.webp": "/PersonalPortfolio/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/PersonalPortfolio/index.html",
     "static/media/talksCardBack.svg": "/PersonalPortfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.f005ea8b.css.map": "/PersonalPortfolio/static/css/main.f005ea8b.css.map",
-    "main.65e0f5f9.js.map": "/PersonalPortfolio/static/js/main.65e0f5f9.js.map",
+    "main.43922ec5.css.map": "/PersonalPortfolio/static/css/main.43922ec5.css.map",
+    "main.5dd64f55.js.map": "/PersonalPortfolio/static/js/main.5dd64f55.js.map",
     "64.04b8fc6d.chunk.css.map": "/PersonalPortfolio/static/css/64.04b8fc6d.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/PersonalPortfolio/static/js/64.56dc6704.chunk.js.map",
     "769.0efc8132.chunk.css.map": "/PersonalPortfolio/static/css/769.0efc8132.chunk.css.map",
     "769.bda0d7b7.chunk.js.map": "/PersonalPortfolio/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f005ea8b.css",
-    "static/js/main.65e0f5f9.js"
+    "static/css/main.43922ec5.css",
+    "static/js/main.5dd64f55.js"
   ]
 }
