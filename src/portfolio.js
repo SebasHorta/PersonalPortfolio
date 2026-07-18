@@ -25,7 +25,7 @@ const greeting = {
   username: "Sebastian Horta",
   title: "Hello! I'm Sebas",
   subTitle: emoji(
-    "Colombian-American CS student & Full Stack Developer 🚀 minoring in EE — passionate about AI, systems, and building tools that make a difference. I also enjoy music, fitness, and martial arts."
+    "Colombian-American Columbia CS graduate & Full Stack Developer 🚀 — passionate about AI, Robotics, and building tools that make a difference. I also enjoy music, fitness, and martial arts."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -57,46 +57,45 @@ const skillsSection = {
 
   skills: [
     emoji(
-      "⚡ Build responsive, user-friendly web apps using React, Flask, and Bootstrap"
+      "⚡ Build responsive full-stack web apps using React, FastAPI, and Flask"
     ),
     emoji(
-      "⚡ Develop intelligent systems and ML pipelines using Python, TensorFlow, and scikit-learn"
+      "⚡ Develop ML pipelines and intelligent systems using Python and scikit-learn"
     ),
     emoji(
-      "⚡ Engineer backend infrastructure and APIs with Flask, SQL, and multithreaded C programs"
+      "⚡ Engineer backend infrastructure and APIs"
     ),
     emoji(
-      "⚡ Work with cloud services like GCP and integrate real-time features and databases"
+      "⚡ Build with AI — integrating LLM APIs, agentic workflows, and MCP servers into real pipelines"
     ),
-    emoji(
-      "⚡ Blend software and hardware — drawing on Electrical Engineering principles to create smarter systems"
-    )
+    // emoji(
+    //   "⚡ Blend software and hardware — drawing on Electrical Engineering principles to create smarter systems"
+    // )
   ],
 
   softwareSkills: [
-    { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
-    { skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt" },
+    { skillName: "HTML-5", fontAwesomeClassname: "fab fa-html5" },
+    { skillName: "CSS", fontAwesomeClassname: "fab fa-css3-alt" },
     { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "reactjs", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "nodejs", fontAwesomeClassname: "fab fa-node" },
-    { skillName: "python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "flask", fontAwesomeClassname: "fas fa-flask" }, // Custom icon
+    { skillName: "ReactJS", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "NodeJS", fontAwesomeClassname: "fab fa-node" },
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "Flask", fontAwesomeClassname: "fas fa-flask" }, // Custom icon
     // { skillName: "sql-database", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "linux", fontAwesomeClassname: "fab fa-linux" },
+    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
+    // { skillName: "linux", fontAwesomeClassname: "fab fa-linux" },
+    { skillName: "ML", fontAwesomeClassname: "fas fa-brain" },
     // { skillName: "aws", fontAwesomeClassname: "fab fa-aws" },
     // { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "tensorflow", fontAwesomeClassname: "fas fa-brain" }, // Custom icon
-    { skillName: "c", fontAwesomeClassname: "fas fa-code" },
-    { skillName: "java", fontAwesomeClassname: "fab fa-java" },
-    { skillName: "bootstrap", fontAwesomeClassname: "fab fa-bootstrap" }
+    { skillName: "FastAPI", fontAwesomeClassname: "fas fa-bolt" }, // Custom icon
+    { skillName: "C/C++", fontAwesomeClassname: "fas fa-code" },
+    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+    // { skillName: "bootstrap", fontAwesomeClassname: "fab fa-bootstrap" }
   ],
 
   display: true // Set false to hide this section, defaults to true
 };
 
-
-// Education Section
 
 const educationInfo = {
   display: true,
@@ -105,12 +104,12 @@ const educationInfo = {
       schoolName: "Columbia Engineering",
       logo: require("./assets/images/SEASLogo.svg.png"),
       subHeader: "B.S. in Computer Science, Minor in Electrical Engineering",
-      duration: "Aug 2023 - May 2026 (Expected)",
-      desc: "Focused on AI, Systems Programming, UI Design, and Electrical Engineering fundamentals.",
+      duration: "Aug 2023 - May 2026",
+      desc: "Focused on AI, Systems Programming, Networks, and Electrical Engineering fundamentals.",
       descBullets: [
-        "Relevant coursework: AI, Systems Programming, UI Design, Fundamentals of Computer Systems, CS Theory, Data Structures, Discrete Math, Probability for Engineers",
-        "Conducted gait analysis research at Columbia’s ROAR Lab using machine learning",
-        "Resident Adviser & Engagement Coordinator organizing community events"
+        "Coursework: Computer Networks, NLP, Adv. C++ Systems, Artificial Intelligence, Data Structures, Systems Programming, CS Theory, UI Design",
+"ML Engineer at Columbia Robotics Lab — gait event detection using KMeans clustering, cross-correlation sync, and Random Forest",
+        "Resident Adviser — organized 10+ community events for 700+ residents"
       ]
     },
     {
@@ -118,7 +117,7 @@ const educationInfo = {
       logo: require("./assets/images/Farmingdale_State_College_logo_1.jpg"),
       subHeader: "B.S. in Computer Science (Transferred)",
       duration: "Aug 2022 - May 2023",
-      desc: "Achieved 4.0 GPA and President’s List honors.",
+      desc: "Achieved 4.0 GPA and President's List honors.",
       descBullets: [
         "Member of Collegiate Science and Technology Entry Program (CSTEP)"
       ]
@@ -133,16 +132,16 @@ const techStack = {
   viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend Development (React, HTML/CSS, JS)",
+      Stack: "Full Stack Development (React, FastAPI, Flask)",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Systems & Backend (C++, Python, Distributed Systems)",
       progressPercentage: "85%"
     },
     {
-      Stack: "Backend & Systems (Flask, C, SQL, Web Servers)",
+      Stack: "AI & Machine Learning (scikit-learn, NLP, Signal Processing)",
       progressPercentage: "75%"
-    },
-    {
-      Stack: "AI & Programming (Python, ML, Java)",
-      progressPercentage: "70%"
     }
   ],
   displayCodersrank: true
@@ -155,22 +154,34 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Independent Developer & Researcher",
-      company: "Columbia University",
+      role: "Machine Learning Engineer",
+      company: "CU Robotics Lab",
       companylogo: require("./assets/images/SEASLogo.svg.png"),
-      date: "2024 – Present",
-      desc: "Hands-on research and development projects in machine learning and full-stack web applications.",
+      date: "June 2025 – Aug 2025",
+      desc: "Built an ML pipeline to detect gait events from VR motion-tracker data under faculty mentorship.",
       descBullets: [
-        "Developed ML pipeline for personalized gait analysis using VR sensor data with ~85% accuracy.",
-        "Built an interactive Flask web app to teach photography exposure concepts.",
-        "Created a full-stack sustainability app to track food expiration and notify users."
+        "Engineered unsupervised KMeans clustering to classify VR trackers by body segment and foot side",
+        "Developed cross-correlation-based synchronization between VR tracker streams and MAT ground truth",
+        "Trained Random Forest classifier achieving ~85% accuracy on heel strike and toe off detection"
+      ]
+    },
+    {
+      role: "Full Stack Developer (Freelance)",
+      company: "Self-Employed",
+      companylogo: require("./assets/images/fullstack.png"),
+      date: "April 2025 – Aug 2025",
+      desc: "Built and delivered a full-stack web archiving tool for research use.",
+      descBullets: [
+        "Built offline web archiver with recursive crawler using requests and BeautifulSoup for HTML and asset capture",
+        "Implemented URL rewriting and error handling for irregular link structures",
+        "Created React dashboard with real-time progress tracking and iframe previews"
       ]
     },
     {
       role: "Committee Board Member",
-      company: "Society of Hispanic Professional Engineers – Columbia University",
+      company: "CU SHPE",
       companylogo: require("./assets/images/SHPELogo.png.avif"), // Replace with your actual image path
-      date: "2023 – Present",
+      date: "September 2023 – May 2026",
       desc: "Support professional development and community outreach within SHPE's Columbia chapter.",
       descBullets: [
         "Organized technical workshops and networking events with industry professionals.",
@@ -179,9 +190,9 @@ const workExperiences = {
     },
     {
       role: "Resident Advisor – Engagement Coordinator",
-      company: "Columbia University Residential Life",
+      company: "CU Res Life",
       companylogo: require("./assets/images/SEASLogo.svg.png"),
-      date: "2024 – Present",
+      date: "August 2024 – May 2026",
       desc: "Guide and support residents while fostering a positive and inclusive living environment.",
       descBullets: [
         "Planned community-building programs to enhance engagement and connection.",
@@ -204,34 +215,55 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME PRETTY COOL THINGS I'VE BUILT",
   projects: [
     {
-      image: require("./assets/images/SebasHorta.jpeg"),
-      projectName: "Sebas",
-      projectDesc: "Sebas",
+      image: require("./assets/images/blockchain.png"), // add a screenshot
+      projectName: "Allowance — 2026",
+      projectDesc: "P2P blockchain enforcing AI agent spending limits via ECDSA-signed transactions, Merkle tree integrity, and proof-of-work mining across 4+ independent nodes. Validated with 106 tests.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://website.com/"
+          name: "View on GitHub",
+          url: "https://github.com/SebasHorta/allowance-blockchain"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/SebasHorta.jpeg"),
-      projectName: "Sebas",
-      projectDesc: "Sebas",
+      image: require("./assets/images/database.png"), // add a screenshot
+      projectName: "C++ Generic Database & Build Tool — 2026",
+      projectDesc: "Generic C++ binary serialization library and GNU make subset with regex-based Makefile parsing, recursive dependency resolution with cycle detection, and binary caching layer.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://website.se/"
+          name: "View on GitHub",
+          url: "https://github.com/SebasHorta/cpp-database-build-tool"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/archive.png"), // add a screenshot
+      projectName: "Web Archiver Tool — 2025",
+      projectDesc: "Full-stack offline web archiver with recursive crawler, URL rewriting, and React dashboard with real-time progress tracking and iframe previews. Built with FastAPI and BeautifulSoup.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/SebasHorta/Web-Archiver-Tool"
+        }
+      ]
+    },
+    // {
+    //   image: require("./assets/images/SebasHorta.jpeg"), // add a screenshot or lab logo
+    //   projectName: "Gait Analysis ML Pipeline",
+    //   projectDesc: "ML pipeline detecting heel strikes and toe offs from VR motion-tracker data using KMeans clustering, cross-correlation synchronization, and Random Forest classification — ~85% accuracy.",
+    //   footerLink: [
+    //     {
+    //       name: "Columbia Robotics Lab",
+    //       url: "https://roar.me.columbia.edu"
+    //     }
+    //   ]
+    // }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
@@ -239,11 +271,23 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Honors, Scholarships, and Projects I’m proud of!",
+  subtitle: "Honors and Scholarships I’m proud of!",
 
   achievementsCards: [
+      {
+      title: "Columbia Spirit Award — 2026",
+      subtitle: "Presented to students who best represent Columbia's spirit through leadership, community, and impact. Recognized as a first-generation Latino engineer and community leader through SHPE, Sabor, and Columbia BJJ.",
+      image: require("./assets/images/SEASLogo.svg.png"),
+      imageAlt: "Columbia University Logo",
+      footerLink: [
+        {
+          name: "Award Details",
+          url: "https://www.cc-seas.columbia.edu/awards/honorees/2026"
+        }
+      ]
+    },
     {
-      title: "Anders Group Scholarship",
+      title: "Anders Group Scholarship — 2024",
       subtitle:
         "National merit-based scholarship awarded for academic excellence and vision to impact public health through technology.",
       image: require("./assets/images/AndersGroup.webp"),
@@ -256,7 +300,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Nathaniel Arbiter Scholarship",
+      title: "Nathaniel Arbiter Scholarship — 2024",
       subtitle:
         "Columbia Engineering scholarship honoring leadership and academic excellence in science and technology.",
       image: require("./assets/images/SEASLogo.svg.png"),
@@ -268,19 +312,6 @@ const achievementSection = {
         }
       ]
     },
-    {
-      title: "Personalized Gait Analysis (Columbia ROAR Lab)",
-      subtitle:
-        "Developed a machine learning pipeline analyzing VR sensor data to detect gait abnormalities with ~85% accuracy, advancing tech-healthcare integration.",
-      image: require("./assets/images/SEASLogo.svg.png"),
-      imageAlt: "Columbia ROAR Lab Logo",
-      footerLink: [
-        {
-          name: "Project Details",
-          url: "https://github.com/SebasHorta/Gait-Analysis-Project" // Replace with actual project URL if available
-        }
-      ]
-    }
   ],
   display: true
 };
@@ -333,14 +364,12 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji("CONTENT 🎙️"),
+  subtitle: "CONTENT I'VE BEEN A PART OF!",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: false // Set false to hide this section, defaults to true
+  podcast: ["https://www.youtube.com/embed/w27L6VYazgI"],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Resume Section

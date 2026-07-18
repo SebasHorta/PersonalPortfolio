@@ -7,7 +7,10 @@
 }
 
 .podcast {
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 16 / 9;
+  border: none;
 }
 
 .podcast-main-div {
@@ -31,7 +34,7 @@
   }
 
   .podcast {
-    width: 300px;
+    max-width: 300px;
   }
   .podcast-main-div {
     text-align: center;
