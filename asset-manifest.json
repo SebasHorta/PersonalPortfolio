@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/PersonalPortfolio/static/css/main.4c96e0f0.css",
-    "main.js": "/PersonalPortfolio/static/js/main.145f4778.js",
+    "main.js": "/PersonalPortfolio/static/js/main.ff08cebf.js",
     "static/css/64.04b8fc6d.chunk.css": "/PersonalPortfolio/static/css/64.04b8fc6d.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/PersonalPortfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.0efc8132.chunk.css": "/PersonalPortfolio/static/css/769.0efc8132.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/PersonalPortfolio/static/js/769.bda0d7b7.chunk.js",
-    "static/media/SebasHorta.jpeg": "/PersonalPortfolio/static/media/SebasHorta.f7d04064087daeef39a9.jpeg",
+    "static/media/SebasGradCropped.jpg": "/PersonalPortfolio/static/media/SebasGradCropped.f9e90937531868fdde73.jpg",
     "static/media/Farmingdale_State_College_logo_1.jpg": "/PersonalPortfolio/static/media/Farmingdale_State_College_logo_1.623c587cb0754e5b173c.jpg",
     "static/media/Montserrat-Regular.ttf": "/PersonalPortfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/resume.pdf": "/PersonalPortfolio/static/media/resume.e8a94d728944217bf0be.pdf",
@@ -23,7 +23,7 @@
     "index.html": "/PersonalPortfolio/index.html",
     "static/media/talksCardBack.svg": "/PersonalPortfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.4c96e0f0.css.map": "/PersonalPortfolio/static/css/main.4c96e0f0.css.map",
-    "main.145f4778.js.map": "/PersonalPortfolio/static/js/main.145f4778.js.map",
+    "main.ff08cebf.js.map": "/PersonalPortfolio/static/js/main.ff08cebf.js.map",
     "64.04b8fc6d.chunk.css.map": "/PersonalPortfolio/static/css/64.04b8fc6d.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/PersonalPortfolio/static/js/64.56dc6704.chunk.js.map",
     "769.0efc8132.chunk.css.map": "/PersonalPortfolio/static/css/769.0efc8132.chunk.css.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.4c96e0f0.css",
-    "static/js/main.145f4778.js"
+    "static/js/main.ff08cebf.js"
   ]
 }
