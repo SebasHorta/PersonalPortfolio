@@ -64,7 +64,7 @@ export default function Greeting() {
               <img
                 className="greeting-image"
                 alt="Sebas Horta"
-                src={require("../../assets/images/SebasHorta.jpeg")}
+                src={require("../../assets/images/SebasGradCropped.jpg")}
               ></img>
               </a>
             {/* )} */}
