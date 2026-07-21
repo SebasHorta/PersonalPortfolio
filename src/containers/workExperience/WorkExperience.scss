@@ -1,4 +1,8 @@
-@import "../../_globalColor";
+.experience-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 1rem 1rem;
+}
 
 .experience-heading {
   font-size: 56px;
@@ -17,64 +21,6 @@
   flex: 1;
 }
 
-.experience-carousel {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-.experience-cards-div {
-  display: flex;
-  gap: 1rem;
-  width: 100%;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  padding: 0.5rem 0.25rem 1rem;
-  -webkit-overflow-scrolling: touch;
-}
-
-.experience-cards-div::-webkit-scrollbar {
-  height: 6px;
-}
-
-.experience-cards-div::-webkit-scrollbar-thumb {
-  background: rgba(148, 163, 184, 0.5);
-  border-radius: 3px;
-}
-
-.experience-slide {
-  flex: 0 0 calc((100% - 2rem) / 3);
-  min-width: 0;
-  scroll-snap-align: start;
-}
-
-.experience-slide > * {
-  height: 100%;
-}
-
-.experience-scroll-btn {
-  flex: 0 0 auto;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: $buttonColor;
-  font-size: 2.5rem;
-  line-height: 1;
-  padding: 0 0.75rem;
-  z-index: 2;
-  transition: opacity 0.2s ease, color 0.2s ease;
-}
-
-.experience-scroll-btn:hover {
-  color: $buttonHover;
-}
-
-.experience-scroll-btn-hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
 /* Media Query */
 
 @media (max-width: 1380px) {
@@ -87,14 +33,5 @@
   .experience-heading {
     font-size: 30px;
     text-align: center;
-  }
-
-  .experience-slide {
-    flex: 0 0 88%;
-  }
-
-  .experience-scroll-btn {
-    font-size: 2rem;
-    padding: 0 0.35rem;
   }
 }
