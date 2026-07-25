@@ -219,6 +219,28 @@ const bigProjects = {
   subtitle: "SOME PRETTY COOL THINGS I'VE BUILT",
   projects: [
     {
+      image: require("./assets/images/mcp.png"), // add a screenshot
+      projectName: "Graph-Scoped Context Server — 2026",
+      projectDesc: "MCP server for LLM coding agents that intelligently scopes repository context using dependency-graph traversal, git-diff filtering, and automated fault-injection benchmarking.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/SebasHorta/graph-scoped-context-server"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/graph-decreasing.png"), // add a screenshot
+      projectName: "Weekly Weight Average Tool — 2026",
+      projectDesc: "Pulls RENPHO smart-scale history into SQLite and generates an interactive weekly-average HTML report with goal tracking. Resilient to the underlying unofficial API breaking.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/SebasHorta/renpho-weekly-tracker"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/blockchain.png"), // add a screenshot
       projectName: "Allowance — 2026",
       projectDesc: "P2P blockchain enforcing AI agent spending limits via ECDSA-signed transactions, Merkle tree integrity, and proof-of-work mining across 4+ independent nodes. Validated with 106 tests.",
