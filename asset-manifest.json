@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PersonalPortfolio/static/css/main.c26413d4.css",
-    "main.js": "/PersonalPortfolio/static/js/main.3325ef9f.js",
+    "main.js": "/PersonalPortfolio/static/js/main.36a6a7e5.js",
     "static/css/64.04b8fc6d.chunk.css": "/PersonalPortfolio/static/css/64.04b8fc6d.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/PersonalPortfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.0efc8132.chunk.css": "/PersonalPortfolio/static/css/769.0efc8132.chunk.css",
@@ -9,7 +9,7 @@
     "static/media/SebasHorta.jpeg": "/PersonalPortfolio/static/media/SebasHorta.f7d04064087daeef39a9.jpeg",
     "static/media/Farmingdale_State_College_logo_1.jpg": "/PersonalPortfolio/static/media/Farmingdale_State_College_logo_1.623c587cb0754e5b173c.jpg",
     "static/media/Montserrat-Regular.ttf": "/PersonalPortfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume.pdf": "/PersonalPortfolio/static/media/resume.df55739f653f57bd04da.pdf",
+    "static/media/resume.pdf": "/PersonalPortfolio/static/media/resume.6a28d303d73459be3892.pdf",
     "static/media/Agustina.woff": "/PersonalPortfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/SEASLogo.svg.png": "/PersonalPortfolio/static/media/SEASLogo.svg.e82a4152382601b90797.png",
     "static/media/database.png": "/PersonalPortfolio/static/media/database.8878d003aeaa86982190.png",
@@ -23,7 +23,7 @@
     "index.html": "/PersonalPortfolio/index.html",
     "static/media/talksCardBack.svg": "/PersonalPortfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.c26413d4.css.map": "/PersonalPortfolio/static/css/main.c26413d4.css.map",
-    "main.3325ef9f.js.map": "/PersonalPortfolio/static/js/main.3325ef9f.js.map",
+    "main.36a6a7e5.js.map": "/PersonalPortfolio/static/js/main.36a6a7e5.js.map",
     "64.04b8fc6d.chunk.css.map": "/PersonalPortfolio/static/css/64.04b8fc6d.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/PersonalPortfolio/static/js/64.56dc6704.chunk.js.map",
     "769.0efc8132.chunk.css.map": "/PersonalPortfolio/static/css/769.0efc8132.chunk.css.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.c26413d4.css",
-    "static/js/main.3325ef9f.js"
+    "static/js/main.36a6a7e5.js"
   ]
 }
